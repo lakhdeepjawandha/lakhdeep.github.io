@@ -1,1 +1,0 @@
-# lakhdeepjawandha.github.io
