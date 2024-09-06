@@ -5,172 +5,224 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lakhdeep Singh Jawandha - Senior iOS Software Engineer</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             color: #333;
+            scroll-behavior: smooth;
+        }
+        .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
         header {
-            background-color: #f4f4f4;
-            padding: 20px;
+            background-color: #fff;
             text-align: center;
+            padding: 100px 0;
+            position: relative;
         }
-        h1, h2 {
-            color: #2c3e50;
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 5px solid #fff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .job-title {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .menu-icon {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            font-size: 24px;
+            cursor: pointer;
+            z-index: 1000;
+        }
+        .portfolio-section {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #f9f9f9;
+        }
+        .portfolio-heading {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .down-arrow {
+            font-size: 2em;
+            color: #666;
         }
         .section {
+            padding: 50px 0;
+        }
+        .section h2 {
+            text-align: center;
             margin-bottom: 30px;
         }
         .skills {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
             gap: 10px;
         }
         .skill {
-            background-color: #3498db;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 5px;
+            background-color: #e9e9e9;
+            color: #333;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 0.9em;
         }
         .project {
-            background-color: #f9f9f9;
-            padding: 15px;
-            margin-bottom: 15px;
-            border-radius: 5px;
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .project h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .project p {
+            margin-bottom: 10px;
+        }
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #3498db;
+            text-decoration: none;
+        }
+        .project a:hover {
+            text-decoration: underline;
         }
         .contact {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
+            gap: 20px;
+        }
+        .contact a {
+            color: #333;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            .profile-img {
+                width: 150px;
+                height: 150px;
+            }
         }
     </style>
 </head>
 <body>
+    <div class="menu-icon">☰</div>
+
     <header>
+        <img src="https://via.placeholder.com/200" alt="Lakhdeep Singh Jawandha" class="profile-img">
         <h1>Lakhdeep Singh Jawandha</h1>
-        <p>Senior iOS Software Engineer</p>
+        <p class="job-title">Senior iOS Software Engineer</p>
     </header>
 
-    <section class="section">
-        <h2>About Me</h2>
-        <p>With over 9 years of experience in iOS development, I specialize in creating robust and user-friendly mobile applications. My expertise includes Swift, Objective-C, and various iOS frameworks. I have a proven track record of delivering top-quality mobile apps for both product and client projects. I'm seeking a challenging role to leverage my expertise and drive innovation in iOS app development.</p>
-    </section>
+    <div class="portfolio-section">
+        <h2 class="portfolio-heading">portfolio</h2>
+        <div class="down-arrow">▼</div>
+    </div>
 
-    <section class="section">
-        <h2>Skills</h2>
-        <div class="skills">
-            <span class="skill">Swift</span>
-            <span class="skill">Objective-C</span>
-            <span class="skill">SwiftUI</span>
-            <span class="skill">UIKit</span>
-            <span class="skill">Core Data</span>
-            <span class="skill">Combine</span>
-            <span class="skill">Core Graphics</span>
-            <span class="skill">RESTful APIs</span>
-            <span class="skill">Unit Testing</span>
-            <span class="skill">CI/CD</span>
-            <span class="skill">React Native</span>
-            <span class="skill">Metal</span>
-            <span class="skill">AVFoundation</span>
-            <span class="skill">RxSwift</span>
-        </div>
-    </section>
+    <div class="container">
+        <section class="section">
+            <h2>About Me</h2>
+            <p>With over 9 years of experience in iOS development, I specialize in creating robust and user-friendly mobile applications. My expertise includes Swift, Objective-C, and various iOS frameworks. I have a proven track record of delivering top-quality mobile apps for both product and client projects. I'm seeking a challenging role to leverage my expertise and drive innovation in iOS app development.</p>
+        </section>
 
-    <section class="section">
-        <h2>Work Experience</h2>
-        <div class="project">
-            <h3>Sr. Mobile Software Eng: iOS & React Native</h3>
-            <p>Sparkview Pvt Ltd, Melbourne | June 2024 to Present</p>
-            <ul>
-                <li>Developed and maintained cross-platform React Native applications.</li>
-                <li>Implemented Live streaming, media streaming, and content channel features.</li>
-                <li>Write clean, maintainable code and conduct code reviews.</li>
-                <li>Collaborated with cross-functional teams to define and implement new features.</li>
-                <li>Perform unit, integration, and end-to-end tests.</li>
-            </ul>
-        </div>
-        <div class="project">
-            <h3>Sr. Software Development Eng - II (iOS)</h3>
-            <p>ShareChat, Bengaluru | December 2021 to Jan 2024</p>
-            <ul>
-                <li>Collaborated with cross-functional teams for seamless backend integration and issue resolution.</li>
-                <li>Created in-house SDKs for Camera, Live Stream, Video Editor, Motion Video, and FACE AR.</li>
-                <li>Worked on Metal, CIImage, AVFoundation, UIKit, RxSwift, SnapKit, Tuist, Core Graphics, ObjC++ frameworks.</li>
-                <li>Participated in knowledge-sharing and code reviews on GitHub.</li>
-                <li>Improved existing iOS app performance and resolved bugs.</li>
-            </ul>
-        </div>
-        <div class="project">
-            <h3>Team Lead iOS | Sr iOS Software Eng | iOS Software Eng.</h3>
-            <p>Iapp Technologies, Mohali | July 2015 to Dec 2021</p>
-            <ul>
-                <li>Led a team of iOS and Android developers, providing technical guidance and mentoring.</li>
-                <li>Designed, developed, and maintained iOS apps using Swift and Objective-C.</li>
-                <li>Analyzed app metrics for performance improvements and managed app store submissions.</li>
-                <li>Worked with cross-functional teams, integrated third-party APIs, and improved existing apps.</li>
-                <li>Contributed to the establishment of coding standards and development policies.</li>
-            </ul>
-        </div>
-    </section>
+        <section class="section">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill">Swift</span>
+                <span class="skill">Objective-C</span>
+                <span class="skill">SwiftUI</span>
+                <span class="skill">UIKit</span>
+                <span class="skill">Core Data</span>
+                <span class="skill">Combine</span>
+                <span class="skill">Core Graphics</span>
+                <span class="skill">RESTful APIs</span>
+                <span class="skill">Unit Testing</span>
+                <span class="skill">CI/CD</span>
+                <span class="skill">React Native</span>
+                <span class="skill">Metal</span>
+                <span class="skill">AVFoundation</span>
+                <span class="skill">RxSwift</span>
+            </div>
+        </section>
 
-    <section class="section">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>ShareChat - Videos & Status</h3>
-            <p>Indian Social media App with various tools ie Camera, Text, Blur, Rotation, Filter, SlideShow.</p>
-            <p>Rank - 11 on Indian App Store</p>
-            <a href="https://apps.apple.com/in/app/id1440640105" target="_blank">View on App Store</a>
-        </div>
-        <div class="project">
-            <h3>Moj - Short Video App</h3>
-            <p>Indian video-sharing social networking App with various tools ie Audio Video Editor, Text Kit, SlideShow etc.</p>
-            <p>Rank - 9 on Indian App Store</p>
-            <a href="https://apps.apple.com/in/app/id1523457550" target="_blank">View on App Store</a>
-        </div>
-        <div class="project">
-            <h3>Edit-Lab</h3>
-            <p>iOS Photo Editing App with various tools ie Crop, Text, Blur, FX, Rotation, Flip etc.</p>
-            <p>Rank - 40 on App Store</p>
-            <a href="https://apps.apple.com/in/app/id865921229" target="_blank">View on App Store</a>
-        </div>
-    </section>
+        <section class="section">
+            <h2>Experience Summary</h2>
+            <p>Over the past 9 years, I've worked with various companies in roles ranging from iOS Developer to Senior Mobile Software Engineer. My experience includes leading development teams, creating innovative mobile applications, and working with cutting-edge technologies in the iOS ecosystem.</p>
+        </section>
 
-    <section class="section">
-        <h2>Education</h2>
-        <div class="project">
-            <h3>Master of Engineering in Computer Science and Engineering</h3>
-            <p>Punjabi University | July 2015 to October 2018</p>
-            <p>CGPA: 7.27</p>
-        </div>
-        <div class="project">
-            <h3>Bachelor of Technology in Computer Science and Engineering</h3>
-            <p>Punjab Technical University | Aug 2012 to June 2015</p>
-            <p>Graduated with 68%</p>
-        </div>
-    </section>
+        <section class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>ShareChat - Videos & Status</h3>
+                <p>Indian Social media App with various tools ie Camera, Text, Blur, Rotation, Filter, SlideShow.</p>
+                <p>Rank - 11 on Indian App Store</p>
+                <a href="https://apps.apple.com/in/app/id1440640105" target="_blank">View on App Store</a>
+            </div>
+            <div class="project">
+                <h3>Moj - Short Video App</h3>
+                <p>Indian video-sharing social networking App with various tools ie Audio Video Editor, Text Kit, SlideShow etc.</p>
+                <p>Rank - 9 on Indian App Store</p>
+                <a href="https://apps.apple.com/in/app/id1523457550" target="_blank">View on App Store</a>
+            </div>
+            <div class="project">
+                <h3>Insta Story Plus</h3>
+                <p>Make a promotional video using Images and text. Photo Editing App with various tools ie Crop, Text, Blur, FX, Rotation, Flip etc.</p>
+                <a href="https://itunes.apple.com/in/app/id1465210016" target="_blank">View on App Store</a>
+            </div>
+            <div class="project">
+                <h3>Video Editor & Slideshow Maker</h3>
+                <p>Camera and Video Editing App. This app is used for Editing videos. It contains Cropping, Background Blur, Background Colour, Stickers, Text, Aspect Ratio, Speed controller, Add Music.</p>
+                <a href="https://apps.apple.com/in/app/id1049220609" target="_blank">View on App Store</a>
+            </div>
+            <div class="project">
+                <h3>MEME</h3>
+                <p>Camera and Video Editing App. Create MEMES and publish it. Message your friends from around the world. Photo and Video Editing App.</p>
+                <a href="https://apps.apple.com/us/app/id1175978897" target="_blank">View on App Store</a>
+            </div>
+            <div class="project">
+                <h3>Magic Video Editor</h3>
+                <p>Camera and Video Editing App. FX Videos effects during video Recording. Quick Photo Transitions.</p>
+                <a href="https://apps.apple.com/in/app/id1482232634" target="_blank">View on App Store</a>
+            </div>
+            <div class="project">
+                <h3>Edit-Lab</h3>
+                <p>iOS Photo Editing App with various tools ie Crop, Text, Blur, FX, Rotation, Flip etc. Utilizes Core Graphics and Open GL.</p>
+                <p>Rank - 40 on App Store</p>
+                <a href="https://apps.apple.com/in/app/id865921229" target="_blank">View on App Store</a>
+            </div>
+        </section>
 
-    <section class="section">
-        <h2>Career Highlights</h2>
-        <ul>
-            <li>Created an alternative to 'Ali-Baba Video Editor SDK', reducing ShareChat's expenditure by millions.</li>
-            <li>Represented the iOS team in a Hackathon, driving innovative solutions.</li>
-            <li>Developed an alternative to Snapchat Camera SDK with a cross-functional team.</li>
-            <li>Best presentation of the Month in ShareChat.</li>
-            <li>Best Developer of the Year at iApp Technologies in 2017, 2018, and 2019.</li>
-            <li>Built in-house mobile apps from scratch, significantly boosting the company's growth and generating long-term returns.</li>
-        </ul>
-    </section>
-
-    <section class="section">
-        <h2>Contact</h2>
-        <div class="contact">
-            <p>Email: <a href="mailto:lakhdeepjawandha@gmail.com">lakhdeepjawandha@gmail.com</a></p>
-            <p>Phone: +61 423 131 392</p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/lakhdeepsingh" target="_blank">linkedin.com/in/lakhdeepsingh</a></p>
-            <p>Stack Overflow: <a href="https://stackoverflow.com/users/5238957" target="_blank">stackoverflow.com/users/5238957</a></p>
-        </div>
-    </section>
+        <section class="section">
+            <h2>Contact</h2>
+            <div class="contact">
+                <a href="mailto:lakhdeepjawandha@gmail.com">Email</a>
+                <a href="https://linkedin.com/in/lakhdeepsingh" target="_blank">LinkedIn</a>
+                <a href="https://stackoverflow.com/users/5238957" target="_blank">Stack Overflow</a>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
