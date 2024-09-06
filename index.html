@@ -12,19 +12,21 @@
             line-height: 1.6;
             color: #333;
             scroll-behavior: smooth;
-            background-color: #f4f6f9;
+            background-color: #f0f4f8;
         }
         header {
-            background: linear-gradient(135deg, #3498db, #2c3e50);
+            background: linear-gradient(135deg, #87ceeb, #b0e0e6);
             color: #fff;
             text-align: center;
             padding: 100px 20px;
             position: relative;
             overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
         }
         h1 {
             font-size: 3em;
             margin-bottom: 10px;
+            font-weight: 700;
         }
         .job-title {
             font-size: 1.3em;
@@ -43,22 +45,25 @@
         .portfolio-section {
             text-align: center;
             padding: 50px 20px;
-            background: #fff;
+            background: #ffffff;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             margin-bottom: 20px;
+            border-radius: 8px;
         }
         .portfolio-heading {
             font-size: 2.5em;
             margin-bottom: 20px;
-            color: #3498db;
+            color: #4682b4;
+            font-weight: 700;
         }
         .down-arrow {
             font-size: 2em;
-            color: #3498db;
+            color: #4682b4;
+            cursor: pointer;
         }
         .section {
             padding: 60px 20px;
-            background: #fff;
+            background: #ffffff;
             margin-bottom: 20px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
             border-radius: 8px;
@@ -67,7 +72,8 @@
             text-align: center;
             margin-bottom: 20px;
             font-size: 2.2em;
-            color: #2c3e50;
+            color: #333;
+            font-weight: 600;
         }
         .skills {
             display: flex;
@@ -77,7 +83,7 @@
             margin-top: 20px;
         }
         .skill {
-            background-color: #3498db;
+            background-color: #87ceeb;
             color: #fff;
             padding: 10px 20px;
             border-radius: 20px;
@@ -89,19 +95,21 @@
             padding: 20px;
             margin-bottom: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
         .project h3 {
             margin-top: 0;
-            color: #2c3e50;
+            color: #333;
+            font-weight: 600;
         }
         .project p {
             margin-bottom: 10px;
+            color: #555;
         }
         .project a {
             display: inline-block;
             margin-top: 10px;
-            color: #3498db;
+            color: #4682b4;
             text-decoration: none;
             font-weight: 500;
         }
@@ -115,7 +123,7 @@
             margin-top: 20px;
         }
         .contact a {
-            color: #2c3e50;
+            color: #4682b4;
             text-decoration: none;
             font-weight: 500;
         }
@@ -138,13 +146,13 @@
         <p class="job-title">Senior iOS Software Engineer</p>
     </header>
 
-    <div class="portfolio-section">
+    <div class="portfolio-section" id="portfolio">
         <h2 class="portfolio-heading">Portfolio</h2>
-        <div class="down-arrow">▼</div>
+        <div class="down-arrow" onclick="document.getElementById('about').scrollIntoView()">▼</div>
     </div>
 
     <div class="container">
-        <section class="section">
+        <section class="section" id="about">
             <h2>About Me</h2>
             <p>With over 9 years of experience in iOS development, I specialize in creating robust and user-friendly mobile applications. My expertise includes Swift, Objective-C, and various iOS frameworks. I have a proven track record of delivering top-quality mobile apps for both product and client projects. I'm seeking a challenging role to leverage my expertise and drive innovation in iOS app development.</p>
         </section>
@@ -167,11 +175,6 @@
                 <span class="skill">AVFoundation</span>
                 <span class="skill">RxSwift</span>
             </div>
-        </section>
-
-        <section class="section">
-            <h2>Experience Summary</h2>
-            <p>Over the past 9 years, I've worked with various companies in roles ranging from iOS Developer to Senior Mobile Software Engineer. My experience includes leading development teams, creating innovative mobile applications, and working with cutting-edge technologies in the iOS ecosystem.</p>
         </section>
 
         <section class="section">
