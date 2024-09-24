@@ -65,7 +65,18 @@ section h2 {
     border-radius: 5px;
 }
 
+
+
+.project a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .project {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     background: #fff;
     padding: 20px;
     margin: 20px 0;
@@ -73,10 +84,26 @@ section h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.project a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
+.project-info {
+    flex: 1;
+    padding-right: 20px; /* Space between description and screenshots */
+}
+
+.screenshots {
+    flex: 0 0 300px; /* Fixed width for screenshots section */
+}
+
+.screenshot-scroll {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding: 10px 0;
+}
+
+.screenshot-scroll img {
+    height: 200px; /* Adjust height as needed */
+    margin-right: 10px; /* Space between images */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 footer {
