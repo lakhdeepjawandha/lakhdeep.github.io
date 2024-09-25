@@ -24,6 +24,19 @@ h1 {
     font-weight: 700;
 }
 
+.download-resume-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #001744; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; 
+    font-size: 16px;
+}
+.download-resume-button:hover {
+    background-color: #0056b3;
+}
 .job-title {
     font-size: 1.3em;
     margin-bottom: 30px;
