@@ -18,6 +18,18 @@ header {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px; 
+    overflow: hidden;
+    margin: 0 auto 20px; 
+}
+.profile-photo img {
+    width: 100%;
+    height: auto;
+}
+
 h1 {
     font-size: 3em;
     margin-bottom: 10px;
