@@ -190,7 +190,7 @@ header nav ul li a {
 
 .screenshots {
     flex: 0 0 300px; /* Fixed width for screenshots section */
-    max-width: 40%; 
+    max-width: 50%; 
 }
 
 .scroll-container {
