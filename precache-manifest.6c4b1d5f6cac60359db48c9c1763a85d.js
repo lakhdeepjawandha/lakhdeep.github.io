@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "96bd013934a97a30fc86d1defdc73d81",
+    "revision": "648c28ca1dab8f3f149cb7afcafa9a4e",
     "url": "/index.html"
   },
   {
-    "revision": "2cb5d038ad7caf37c688",
+    "revision": "cd028689cb5a46470066",
     "url": "/static/css/main.9c27953e.chunk.css"
   },
   {
-    "revision": "62f68bb52bdc334372b3",
-    "url": "/static/js/2.fbcfe403.chunk.js"
+    "revision": "b7c80ef11d7864e9b7a5",
+    "url": "/static/js/2.43f3d376.chunk.js"
   },
   {
-    "revision": "2cb5d038ad7caf37c688",
-    "url": "/static/js/main.5e7134e4.chunk.js"
+    "revision": "cd028689cb5a46470066",
+    "url": "/static/js/main.4f5180b0.chunk.js"
   },
   {
     "revision": "3854631c8dd4033ea7d7",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dcd6dee2bd7458a4a576dc131506fd83",
     "url": "/static/media/animated_logo.dcd6dee2.svg"
+  },
+  {
+    "revision": "7300b85ccd315cd13f49c83837192409",
+    "url": "/static/media/at_logo.7300b85c.jpg"
   },
   {
     "revision": "058eca4cbdc03a1dad9a6bb943ac7831",
@@ -192,10 +196,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ibm_logo.d3fccbe1.png"
   },
   {
-    "revision": "571a8584e69ecfbe326c8b8385fbbf54",
-    "url": "/static/media/iiitk_logo.571a8584.png"
-  },
-  {
     "revision": "29152cf756a1facead5393c32e373371",
     "url": "/static/media/intel_logo.29152cf7.jpg"
   },
@@ -234,6 +234,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b8ba948796d7ab532673c5ed2f315e74",
     "url": "/static/media/projects_image.b8ba9487.svg"
+  },
+  {
+    "revision": "a511b92a9d5543eac22f670e1cefa4e4",
+    "url": "/static/media/ptu_logo.a511b92a.png"
+  },
+  {
+    "revision": "7f588e5477c7d0c701983be61b9868cb",
+    "url": "/static/media/pup_Logo.7f588e54.png"
   },
   {
     "revision": "71408db71465afd742233e4a96f06526",
