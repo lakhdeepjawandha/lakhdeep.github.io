@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "648c28ca1dab8f3f149cb7afcafa9a4e",
+    "revision": "f815031151c9f53bd921437cdc8c2fce",
     "url": "/index.html"
   },
   {
-    "revision": "cd028689cb5a46470066",
+    "revision": "d3960e5fe3eaa0bbad81",
     "url": "/static/css/main.9c27953e.chunk.css"
   },
   {
-    "revision": "b7c80ef11d7864e9b7a5",
-    "url": "/static/js/2.43f3d376.chunk.js"
+    "revision": "1b2ecc612375bbc676b7",
+    "url": "/static/js/2.36cbbb3c.chunk.js"
   },
   {
-    "revision": "cd028689cb5a46470066",
-    "url": "/static/js/main.4f5180b0.chunk.js"
+    "revision": "d3960e5fe3eaa0bbad81",
+    "url": "/static/js/main.8fdaa830.chunk.js"
   },
   {
     "revision": "3854631c8dd4033ea7d7",
@@ -56,12 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/address_image.16559172.svg"
   },
   {
-    "revision": "eaf02c2d0158b6b4b8c2a0a0cf830a04",
-    "url": "/static/media/animated_ashutosh.eaf02c2d.png"
-  },
-  {
     "revision": "dcd6dee2bd7458a4a576dc131506fd83",
     "url": "/static/media/animated_logo.dcd6dee2.svg"
+  },
+  {
+    "revision": "648042a2ae7b603c373d493e31f2b7d5",
+    "url": "/static/media/animated_profile.648042a2.png"
   },
   {
     "revision": "7300b85ccd315cd13f49c83837192409",
@@ -208,6 +208,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/jsFramework.5b4a6449.svg"
   },
   {
+    "revision": "14b0f71055e72dbd0ba8c7555343e56f",
+    "url": "/static/media/lakhdeepDP.14b0f710.jpg"
+  },
+  {
     "revision": "c597fbded5de799dfb9abc3fc4f1c26f",
     "url": "/static/media/legato_logo.c597fbde.png"
   },
@@ -246,6 +250,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "71408db71465afd742233e4a96f06526",
     "url": "/static/media/pwa.71408db7.png"
+  },
+  {
+    "revision": "43c0f8ea0e598b3cd57e1805578e6991",
+    "url": "/static/media/sharechat.43c0f8ea.webp"
+  },
+  {
+    "revision": "70b8f27caf4490935faa3483162797a6",
+    "url": "/static/media/sparkview.70b8f27c.png"
+  },
+  {
+    "revision": "9276690f11cf53587cbe1c338f38f039",
+    "url": "/static/media/stack-overflow_logo.9276690f.png"
   },
   {
     "revision": "2c497738be3831492aeb6bdc43f19154",
